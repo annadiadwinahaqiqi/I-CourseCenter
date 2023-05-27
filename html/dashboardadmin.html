@@ -76,19 +76,19 @@
            
             <!-- Cards -->
             <li class="menu-item">
-              <a href="dashboardadmin.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-collection"></i>
-                <div data-i18n="Basic">Dashboard Admin</div>
-              </a>
-            </li>
+                <a href="dashboardadmin.html" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-collection"></i>
+                  <div data-i18n="Basic">Dashboard Admin</div>
+                </a>
+              </li>
             <li class="menu-item">
-              <a href="sc.html" class="menu-link">
+              <a href="scadmin.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
                 <div data-i18n="Basic">Supporting Course (SC)</div>
               </a>
             </li>
             <li class="menu-item">
-              <a href="index.html" class="menu-link">
+              <a href="mbkmadmin.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
                 <div data-i18n="Basic">Merdeka Belajar Kampus Merdeka (MBKM)</div>
               </a>
@@ -99,7 +99,6 @@
                 <div data-i18n="Basic">Fakultas</div>
               </a>
             </li>
-            
             <li class="menu-item">
                 <a href="listakun.html" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
@@ -200,149 +199,112 @@
           </nav>
 
           <!-- / Navbar -->
-
-          <!--content-->
-           <!-- Bootstrap Toasts with Placement -->
-           <div class="content-wrapper">
-            <!-- Content -->
-
-            <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-semibold py-3 mb-4"><span class="text-muted fw-light">Merdeka Belajar Kampus Merdeka/</span> MBKM</h4>
-
-              <!-- Toast with Placements -->
-              <div
-                class="bs-toast toast toast-placement-ex m-2"
-                role="alert"
-                aria-live="assertive"
-                aria-atomic="true"
-                data-delay="2000"
-              >
+          <div class="main-panel">
+            <div class="content-wrapper">
+              
+              <div class="row">
+                <div class="col-md-3 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-title text-md-center text-xl-left">User</p>
+                      <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                        <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">100 User</h3>
+                        <i class="menu-icon tf-icons bx bx-collection"></i>
+                      </div>                       
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-title text-md-center text-xl-left">MBKM</p>
+                      <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                        <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">100 MBKM</h3>
+                        <i class="menu-icon tf-icons bx bx-collection"></i>
+                      </div>  
+                      
+                    </div>
+                  </div>
+                </div>
                 
-              </div>
-           <div class="card mb-4">
-            <h5 class="card-header">Filter by</h5>
-            <div class="card-body">
-              <div class="row gx-3 gy-2 align-items-center">
-                <div class="col-md-3">
-                  <label class="form-label" for="selectTypeOpt">Type</label>
-                  <select id="selectTypeOpt" class="form-select color-dropdown">
-                    <option value="bg-primary" selected>aaa</option>
-                    <option value="bg-secondary">bbb</option>
-                    <option value="bg-success">ccc</option>
-                    
-                  </select>
-                </div>
-                <div class="col-md-3">
-                  <label class="form-label" for="selectPlacement">Type</label>
-                  <select class="form-select placement-dropdown" id="selectPlacement">
-                    
-                    <option value="top-0 start-50 translate-middle-x">aaa</option>
-                    <option value="top-50 start-0 translate-middle-y">bbb</option>
-                    <option value="top-50 start-50 translate-middle">ccc</option>
-                    
-                  </select>
-                </div>
-                <div class="col-md-3">
-                  <label class="form-label" for="selectPlacement">Rating</label>
-                  <select class="form-select placement-dropdown" id="selectPlacement">
-                    
-                    <option value="top-0 start-50 translate-middle-x">1</option>
-                    <option value="top-50 start-0 translate-middle-y">2</option>
-                    <option value="top-50 start-50 translate-middle">3</option>
-                    
-                  </select>
-                </div>
-                <div class="col-md-3">
-                  <label class="form-label" for="showToastPlacement">&nbsp;</label>
-                  <button id="showToastPlacement" class="btn btn-primary d-block">Search</button>
-                </div>
-              </div>
-            </div>
-            
-            </div>
-            
-            <div class="row mb-5">
-              <div class="col-md">
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-4">
-                      <img class="card-img card-img-left" src="../assets/img/elements/1.png" alt="Card image" />
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">TOKOPEDIA</h5>
-                        <p class="card-text">
-                          Periode pendaftaran : 18 Juli - 25 Agustus 2023 
-                        </p>
-                        <p class="card-text"><small class="text-muted">Positions : Software Engineer, Copywriter, Internet Marketing, etc. </small></p>
-                        <a href="mbkm.html">View more</a>
-
-                      </div>
+                <div class="col-md-3 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-title text-md-center text-xl-left">SC</p>
+                      <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                        <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">100 SC</h3>
+                        <i class="menu-icon tf-icons bx bx-collection"></i>
+                      </div>  
+                      
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-md">
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-8">
+                <div class="col-md-3 grid-margin stretch-card">
+                    <div class="card">
                       <div class="card-body">
-                        <h5 class="card-title">SHOPEE</h5>
-                        <p class="card-text">
-                          Periode pendaftaran : 15 Juli - 10 Agustus 2023 
-                        </p>
+                        <p class="card-title text-md-center text-xl-left">Review</p>
+                        <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                          <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">100 Review</h3>
+                          <i class="menu-icon tf-icons bx bx-collection"></i>
+                        </div>  
                         
-                        <p class="card-text"><small class="text-muted">Positions : Business Development, Marketing, Technology, etc. </small></p>
-                        <a href="mbkm.html">View more</a>
-
                       </div>
                     </div>
-                    <div class="col-md-4">
-                      <img class="card-img card-img-right" src="../assets/img/elements/1.png" alt="Card image" />
+                  </div>
+              </div>
+
+              <div class="content-wrapper">
+                <!-- Content -->
+                
+                
+                <h4 class="fw-semibold py-3 mb-4"><span class="text-muted fw-light">Review /</span> MBKM-SC</h4>
+                  
+                  <!-- Basic Bootstrap Table -->
+                  
+                    
+                    
+                        <table class="table">
+                            <tr>
+                              <th>Nama</th>
+                              <th>EMAIL</th>
+                              <th>Review</th>
+                              <th>Action</th>
+                            </tr>
+                            <tr>
+                              <td>GKV</td>
+                              <td>@gmail.com</td>
+                              <td>Ex</td>
+                              <td>
+                                
+                              <div class="demo-inline-spacing custom-edit">
+                                <button type="button" class="btn btn-primary">Delete</button>
+                              </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>AUL</td>
+                              <td>@gmail.com</td>
+                              <td>EXAMPLEE</td>
+                              <td>
+                                
+                              <div class="demo-inline-spacing custom-edit">
+                                <button type="button" class="btn btn-primary">Delete</button>
+                              </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>TOKOPEDIA</td>
+                              <td>@gmail.com</td>
+                              <td>Lorem ipsu e excepturi harum. Sit, harum.</td>
+                              <td>
+                               
+                              <div class="demo-inline-spacing custom-edit">
+                                <button type="button" class="btn btn-primary">Delete</button>
+                              </div>
+                              </td>
+                            </tr>
+    
+                          </table>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-            
-
-            <div class="content-backdrop fade"></div>
-          </div>
-          <!-- Content wrapper -->
-        </div>
-        <!-- / Layout page -->
-      </div>
-
-      <!-- Overlay -->
-      <div class="layout-overlay layout-menu-toggle"></div>
-    </div>
-    <!-- / Layout wrapper -->
-
-    
-
-    <!-- Core JS -->
-    <!-- build:js assets/vendor/js/core.js -->
-    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="../assets/vendor/libs/popper/popper.js"></script>
-    <script src="../assets/vendor/js/bootstrap.js"></script>
-    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-
-    <script src="../assets/vendor/js/menu.js"></script>
-    <!-- endbuild -->
-
-    <!-- Vendors JS -->
-    <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
-
-    <!-- Main JS -->
-    <script src="../assets/js/main.js"></script>
-
-    <!-- Page JS -->
-    <script src="../assets/js/dashboards-analytics.js"></script>
-
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </body>
-</html>
+                  <!--/ Basic Bootstrap Table -->
